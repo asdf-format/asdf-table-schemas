@@ -23,7 +23,7 @@ def get_resource_mappings():
     return [
         DirectoryResourceMapping(
             resources_root / "stsci.edu" / "schemas",
-            "http://stsci.edu/schemas/asdf/table/",
+            "http://stsci.edu/schemas/asdf/core/",
             recursive=True,
         ),
         DirectoryResourceMapping(
